@@ -24,3 +24,6 @@ For instance, the article mentioned that: The design considerations for the syst
  - Scalability: Handle a massive volume of records.
  - Reliability: Support sharding and replication.
  - Solution: Opt for a key-value NoSQL database like AWS DynamoDB due to its suitability for these requirements.
+
+ Chih-Lun's Comment:
+It's absolutely important to consider database design when building a system. For Scalability and Availability I would suggest redis for an in-memory data storage. AWS S3 and DynamoDB are also good choices for large amount of data.
